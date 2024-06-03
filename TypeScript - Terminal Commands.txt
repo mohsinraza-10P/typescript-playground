@@ -1,0 +1,9 @@
+// TypeScript global installation
+npm install -g typescript ts-node
+
+// Tool to help us execute TypeScript in browser
+npm install -g parcel-bundler
+parcel index.html
+
+npm i -D @types/google.maps
+The -D flag is the shortcut for: --save-dev
